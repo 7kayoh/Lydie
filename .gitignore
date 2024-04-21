@@ -1,0 +1,10 @@
+# Project place file
+/Lydie.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+Packages
+
+.DS_Store

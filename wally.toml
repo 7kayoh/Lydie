@@ -1,0 +1,8 @@
+[package]
+name = "7kayoh/lydie"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Fusion = "elttob/fusion@0.2.0"

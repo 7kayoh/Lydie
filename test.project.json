@@ -1,0 +1,15 @@
+{
+    "name": "Lydie",
+    "tree": {
+      "$className": "DataModel",
+      "ReplicatedStorage": {
+        "Packages": {
+          "$path": "Packages",
+
+          "Lydie": {
+            "$path": "src"
+          }
+        }
+      }
+    }
+  }
