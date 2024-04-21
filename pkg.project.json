@@ -1,0 +1,12 @@
+{
+	"name": "Lydie",
+	"tree": {
+		"$className": "Folder",
+		"Packages": {
+			"$path": "Packages",
+			"Lydie": {
+				"$path": "src"
+			}
+		}
+	}
+}
