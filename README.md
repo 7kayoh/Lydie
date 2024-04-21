@@ -2,7 +2,7 @@
 Version 1.0
 
 ## What is this?
-This is the first iteration of the Lydie component library. Named after Lydie Malen from Atelier because she has a unique sense of art, so do we when we are creating Lydie.
+This is the first iteration of the FrappéUI component library. Named after Lydie Malen from Atelier because she has a unique sense of art, so do we when we are creating Lydie.
 
 Created 2-3 years ago, it was originally used for building the interface of Frappé's future games and toolkits.
 Powered by Fusion and FusionRouter, it is a powerful component library with features such as hot theme switching.
