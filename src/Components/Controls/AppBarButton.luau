@@ -5,7 +5,7 @@
 local Components = script.Parent.Parent
 local Modules = Components.Parent.Modules
 
-local Icons = require(Modules.Icons).icons
+local Icons = require(Modules.Icons)
 local Scheme = require(Modules.Scheme)
 local IconButton = require(Components.Controls.IconButton)
 

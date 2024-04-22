@@ -8,7 +8,7 @@ local Lydie = Components.Parent
 
 local Fusion = require(Lydie.Parent.Fusion)
 local Constants = require(Modules.Constants)
-local Icons = require(Modules.Icons).icons
+local Icons = require(Modules.Icons)
 local Scheme = require(Modules.Scheme)
 local IconButton = require(Components.Controls.IconButton)
 
