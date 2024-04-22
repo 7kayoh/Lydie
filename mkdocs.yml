@@ -1,0 +1,74 @@
+site_name: Lydie
+repo_url: https://github.com/7kayoh/lydie
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Dark theme
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Light theme
+  font:
+    text: Figtree
+    code: Overpass Mono
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.top
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+
+  language: en
+
+plugins:
+  - search
+  - tags
+  - glightbox
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+      title: On this page
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/7kayoh/lydie
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/JSHRQkrafN
+
+copyright: Copyright &copy; 2021 - 2024 7kayoh
+
+extra_css:
+  - stylesheets/theme.css
