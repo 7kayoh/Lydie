@@ -1,3 +1,5 @@
+<img align="center" src="./gh-assets/logo-dark-theme.svg#gh-dark-mode-only" alt="Lydie"><img align="center" src="./gh-assets/logo-light-theme.svg#gh-light-mode-only" alt="Lydie">
+
 # Lydie (previously FrappéUI)
 Version 1.0
 
