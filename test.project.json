@@ -10,6 +10,12 @@
             "$path": "src"
           }
         }
+      },
+
+      "StarterPlayer": {
+        "StarterPlayerScripts": {
+          "$path": "Tests"
+        }
       }
     }
   }
