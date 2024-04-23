@@ -4,5 +4,8 @@ version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
+exclude = ["**"]
+include = ["src", "src/*", "default.project.json", "wally.lock", "wally.toml"]
+
 [dependencies]
 Fusion = "elttob/fusion@0.2.0"
