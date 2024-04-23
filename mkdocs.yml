@@ -1,4 +1,6 @@
 site_name: Lydie
+site_url: https://lydie.7kayoh.net/
+repo_name: 7kayoh/Lydie
 repo_url: https://github.com/7kayoh/lydie
 edit_uri: edit/main/docs/
 
@@ -27,6 +29,7 @@ theme:
     - navigation.instant.progress
     - navigation.tabs
     - navigation.top
+    - navigation.indexes
     - content.action.edit
     - search.suggest
     - search.highlight
@@ -38,7 +41,8 @@ theme:
 
 plugins:
   - search
-  - tags
+  - tags:
+      tags_file: Tags.md
   - glightbox
 
 markdown_extensions:
@@ -58,6 +62,43 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - tables
+
+nav:
+  - Home: index.md
+  - Tutorials:
+    - Installing Lydie: Tutorials/InstallingLydie.md
+    - Using Lydie: Tutorials/UsingLydie.md
+    - Importing Lydie: Tutorials/ImportingLydie.md
+  - Components:
+    - Controls:
+      - Buttons:
+        - Components/Controls/Buttons/BaseButton.md
+        - Components/Controls/Buttons/TextButton.md
+        - Components/Controls/Buttons/IconButton.md
+        - Components/Controls/Buttons/IconTextButton.md
+        - Components/Controls/Buttons/AppBarButton.md
+        - Components/Controls/Buttons/AppTabBarButton.md
+      - Components/Controls/Checkbox.md
+      - Components/Controls/Slider.md
+      - Components/Controls/TextField.md
+      - Components/Controls/Toggle.md
+    - View:
+      - Components/View/AppTabBar.md
+      - Components/View/BottomAppBar.md
+      - Components/View/ToolTip.md
+      - Components/View/TopAppBar.md
+      - Components/View/Window.md
+    - Misc:
+        - Components/Divider.md
+        - Components/Shadow.md
+  - Modules:
+    - Modules/Constants.md
+    - Modules/EnumList.md
+    - Modules/Icons.md
+    - Modules/Scheme.md
+    - Modules/SharedStates.md
+  - Tags: Tags.md
 
 extra:
   version:

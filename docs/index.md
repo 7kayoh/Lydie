@@ -21,7 +21,7 @@ Now, Frappé no longer uses this version of FrappéUI in favor of another UI fra
     
     Lydie supports hot-switching (thanks to Fusion's reactive states), so you can switch UI themes without having to reload.
 
-    [:octicons-arrow-right-24: Learn more](#)
+    [:octicons-arrow-right-24: Learn more](./Modules/Scheme.md)
 
 -   :material-expand-all:{ .lg .middle } __Extension of existing UI classes__
 
@@ -29,7 +29,7 @@ Now, Frappé no longer uses this version of FrappéUI in favor of another UI fra
 
     Lydie comes with components to extend the functionalities of native UI classes from Roblox, such as TextBoxes, Buttons, etc.
 
-    [:octicons-arrow-right-24: Components](#)
+    [:octicons-arrow-right-24: Components](./Components/Controls/TextField.md)
 
 -   :material-library:{ .lg .middle } __Built with Fusion__
 
