@@ -34,6 +34,7 @@ local TextButton = Components.Controls.TextButton
 local Toggle = Components.Controls.Toggle
 local TextField = Components.Controls.TextField
 local Slider = Components.Controls.Slider
+local ColorPicker = Components.Controls.ColorPicker
 
 local themeIcon = Fusion.Value(Icons.sun)
 local windowVisible = Fusion.Value(true)
@@ -264,6 +265,10 @@ Fusion.New("ScreenGui")({
 								Slider({}),
 							},
 						}),
+					
+						Fusion.Hydrate(ColorPicker {}) {
+							Size = UDim2.fromOffset(150, 0),
+						}
 					},
 				}),
 
