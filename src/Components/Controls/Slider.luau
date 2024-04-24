@@ -26,11 +26,19 @@ return function(props)
 	props.Value = props.Value or Value(0)
 	props.Stepper = props.Stepper or Value(5)
 	local bar = BaseButton({
-		Position = props.Position or UDim2.fromScale(0, 0),
-		Size = UDim2.new(0, props.Width or 200, 0, 8),
+		Size = UDim2.new(0, 200, 0, 8),
 		RoundedValue = 1,
 
 		[Children] = {
+			New "UISizeConstraint" {
+				MaxSize = Vector2.new(math.huge, 8),
+				MinSize = Vector2.new(0, 8),
+			},
+
+			New "UIGradient" {
+				Color = props.GradientColor,
+			},
+
 			BaseButton({
 				BackgroundColor = Scheme.GetAnimated(Scheme.Accent),
 				BackgroundOpacity = 0,
