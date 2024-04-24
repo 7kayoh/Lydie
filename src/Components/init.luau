@@ -4,6 +4,7 @@ return {
         AppTabBarButton = require(script.Controls.AppTabBarButton),
         BaseButton = require(script.Controls.BaseButton),
         Checkbox = require(script.Controls.Checkbox),
+        ColorPicker = require(script.Controls.ColorPicker),
         IconButton = require(script.Controls.IconButton),
         Icons = require(script.Controls.Icons),
         IconTextButton = require(script.Controls.IconTextButton),
