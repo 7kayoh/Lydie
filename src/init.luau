@@ -1,4 +1,3 @@
 return {
-  Components = require(script.Components),
-  Modules = require(script.Modules),  
+  Components = require(script.Components)
 }
