@@ -5,9 +5,9 @@ registry = "test"
 [[package]]
 name = "7kayoh/lydie"
 version = "1.0.0"
-dependencies = [["Fusion", "plainsour/lime@0.1.3"]]
+dependencies = [["Fusion", "plainsour/lemon@0.3.0-dev.5.8"]]
 
 [[package]]
-name = "plainsour/lime"
-version = "0.1.3"
+name = "plainsour/lemon"
+version = "0.3.0-dev.5.8"
 dependencies = []

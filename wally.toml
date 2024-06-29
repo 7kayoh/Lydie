@@ -8,4 +8,4 @@ exclude = ["**"]
 include = ["src", "src/*", "default.project.json", "wally.lock", "wally.toml"]
 
 [dependencies]
-Fusion = "plainsour/lime@0.1.3"
+Fusion = "plainsour/lemon@0.3.0-dev.5.8"
