@@ -1,4 +1,4 @@
 return {
   Components = require(script.Components),
-  Directive = require(script.Directives),
+  Directives = require(script.Directives),
 }

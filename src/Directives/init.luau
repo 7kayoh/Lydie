@@ -3,13 +3,13 @@
 --!nolint LocalShadow
 local task = nil -- Disable usage of Roblox's task scheduler
 
-local Package = script.Parent.Parent
+local Package = script.Parent
 local Fusion = require(Package.Parent.Fusion)
 
 local Directives = require(script.DirectiveList)
 local InternalTypes = require(Package.InternalTypes)
 
-return function(directiveName: string)
+local function directiveKey(directiveName: string)
 	return {
 		type = "SpecialKey",
 		kind = "Directive",
@@ -33,3 +33,15 @@ return function(directiveName: string)
 		end,
 	} :: Fusion.SpecialKey
 end
+
+local metaDirectives; metaDirectives = setmetatable({}, {
+	__index = function(_, key: string)
+		return directiveKey(key)
+	end,
+	__newIndex = function()
+		error("Can't write private properties")
+	end,
+	__metatable = "This metatable is locked",
+}) :: InternalTypes.Directives & typeof(metaDirectives)
+
+return metaDirectives

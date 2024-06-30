@@ -1,9 +1,5 @@
-local Package = script.Parent
+local Package = script.Parent.Parent
 
 local InternalTypes = require(Package.InternalTypes)
 
-type Directives = {
-    [string]: InternalTypes.DirectiveClassConstructor
-}
-
-return {} :: Directives -- empty for now.
+return {} :: InternalTypes.Directives -- empty for now.
