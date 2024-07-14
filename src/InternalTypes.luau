@@ -2,7 +2,7 @@ local Package = script.Parent
 local Fusion = require(Package.Parent.Fusion)
 
 export type Scope = Fusion.Scope<unknown>
-export type OptionalState<T> = Fusion.Value<T, Scope> | T
+export type OptionalState<T> = Fusion.UsedAs<T>
 export type DirectiveClass = {
     cleanUp: () -> ()
 }
