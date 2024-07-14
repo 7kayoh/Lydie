@@ -1,3 +1,4 @@
 return {
-    Button = require(script.Button)
+    Button = require(script.Button),
+    Tooltip = require(script.Tooltip)
 }

@@ -2,4 +2,6 @@ local Package = script.Parent.Parent
 
 local InternalTypes = require(Package.InternalTypes)
 
-return {} :: InternalTypes.Directives -- empty for now.
+return {
+    Tooltip = require(script.Parent.Tooltip)
+} :: InternalTypes.Directives -- empty for now.
