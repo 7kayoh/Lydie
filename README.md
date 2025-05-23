@@ -3,6 +3,9 @@
 # Lydie (previously FrappéUI)
 Version 1.0
 
+> [!IMPORTANT] 
+> Lydie is currently being rebuilt from the ground up. This new version brings major changes, including a redesigned structure and updated design. Development on the current version is paused for now. For more details, check out the [Discord server](https://discord.gg/JSHRQkrafN).
+
 ## What is this?
 This is the first iteration of the FrappéUI component library. Named after Lydie Malen from Atelier because she has a unique sense of art, so do we when we are creating Lydie.
 
