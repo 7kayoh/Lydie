@@ -4,7 +4,7 @@
 Version 1.0
 
 > [!IMPORTANT] 
-> Lydie is currently being rebuilt from the ground up. This new version brings major changes, including a redesigned structure and updated design. Development on the current version is paused for now. For more details, check out the [Discord server](https://discord.gg/JSHRQkrafN).
+> We're working on Estuary UI, a new UI components library for Fusion 0.3 with Iona. Learn more in our [Discord server](https://discord.gg/JSHRQkrafN). Lydie V2 is therefore scrapped.
 
 ## What is this?
 This is the first iteration of the FrappéUI component library. Named after Lydie Malen from Atelier because she has a unique sense of art, so do we when we are creating Lydie.
